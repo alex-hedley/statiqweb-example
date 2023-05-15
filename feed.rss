@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Mon, 15 May 2023 10:43:13 GMT</pubDate>
-		<lastBuildDate>Mon, 15 May 2023 10:43:13 GMT</lastBuildDate>
+		<pubDate>Mon, 15 May 2023 10:52:19 GMT</pubDate>
+		<lastBuildDate>Mon, 15 May 2023 10:52:19 GMT</lastBuildDate>
 		<item>
 			<title>3</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Mon, 15 May 2023 10:42:40 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 10:51:42 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Mon, 15 May 2023 10:42:40 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 10:51:42 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -37,7 +37,7 @@
 			<description>&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;</description>
 			<enclosure url="https://alex-hedley.github.io/statiqweb-example/images/background.jpg" length="0" type="image" />
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/1</guid>
-			<pubDate>Mon, 15 May 2023 10:42:40 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 10:51:42 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;1&lt;/h1&gt;
 &lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -49,7 +49,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Mon, 15 May 2023 10:42:40 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 10:51:42 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -61,7 +61,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Mon, 15 May 2023 10:42:40 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 10:51:42 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
