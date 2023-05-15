@@ -50,12 +50,12 @@ jobs:
 #       # changes the base-tag in index.html from '/' to 'statiqweb-example' to match GitHub Pages repository subdirectory
 #       - name: Change base-tag in index.html from / to statiqweb-example
 #         run: sed -i 's/<base href="\/" \/>/<base href="\/statiqweb-example\/" \/>/g' ./src/output/index.html
-      - name: Add base tag
-        working-directory: ./src
-        run: |
-          sed '11 a\
-            <base href="\/statiqweb-example\/" \/>
-          ' output/index.html
+      # - name: Add base tag
+      #   working-directory: ./src
+      #   run: |
+      #     sed '11 a\
+      #       <base href="\/statiqweb-example\/" \/>
+      #     ' output/index.html
 
       # https://github.com/marketplace/actions/github-pages-action
       - name: 🚀 Deploy
