@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>/</id>
+	<id>/statiqweb-example</id>
 	<title />
-	<link rel="self" href="/" />
+	<link rel="self" href="/statiqweb-example" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-05-15T09:46:44Z</updated>
+	<updated>2023-05-15T10:03:52Z</updated>
 </feed>
