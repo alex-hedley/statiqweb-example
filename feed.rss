@@ -1,11 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
 		<title />
 		<link>/statiqweb-example</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Mon, 15 May 2023 10:03:52 GMT</pubDate>
-		<lastBuildDate>Mon, 15 May 2023 10:03:52 GMT</lastBuildDate>
+		<pubDate>Mon, 15 May 2023 10:19:29 GMT</pubDate>
+		<lastBuildDate>Mon, 15 May 2023 10:19:29 GMT</lastBuildDate>
+		<item>
+			<title>3</title>
+			<link>/statiqweb-example/posts/3</link>
+			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
+			<guid isPermaLink="false">/statiqweb-example/posts/3</guid>
+			<pubDate>Mon, 15 May 2023 10:18:53 GMT</pubDate>
+			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
+&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
+&lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>1</title>
+			<link>/statiqweb-example/posts/1</link>
+			<description>&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;</description>
+			<guid isPermaLink="false">/statiqweb-example/posts/1</guid>
+			<pubDate>Mon, 15 May 2023 10:18:53 GMT</pubDate>
+			<content:encoded>&lt;h1 id="section"&gt;1&lt;/h1&gt;
+&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
+&lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>2</title>
+			<link>/statiqweb-example/posts/2</link>
+			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
+			<guid isPermaLink="false">/statiqweb-example/posts/2</guid>
+			<pubDate>Mon, 15 May 2023 10:18:53 GMT</pubDate>
+			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
+&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
+&lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 	</channel>
 </rss>
