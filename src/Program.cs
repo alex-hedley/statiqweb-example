@@ -5,4 +5,6 @@ using Statiq.Web;
 return await Bootstrapper
   .Factory
   .CreateWeb(args)
+  .AddTabGroupShortCode()
+  .AddIncludeCodeShortCode()
   .RunAsync();
