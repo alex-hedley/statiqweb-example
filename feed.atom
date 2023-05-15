@@ -4,12 +4,12 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/statiqweb-example" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-05-15T11:02:02Z</updated>
+	<updated>2023-05-15T13:29:27Z</updated>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/3</id>
 		<title>3</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/3" />
-		<updated>2023-05-15T11:01:23Z</updated>
+		<updated>2023-05-15T13:29:02Z</updated>
 		<content>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -20,7 +20,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/4</id>
 		<title>4</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/4" />
-		<updated>2023-05-15T11:01:23Z</updated>
+		<updated>2023-05-15T13:29:02Z</updated>
 		<content>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -31,7 +31,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/2</id>
 		<title>2</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/2" />
-		<updated>2023-05-15T11:01:23Z</updated>
+		<updated>2023-05-15T13:29:02Z</updated>
 		<content>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -42,7 +42,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/5</id>
 		<title>5</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/5" />
-		<updated>2023-05-15T11:01:23Z</updated>
+		<updated>2023-05-15T13:29:02Z</updated>
 		<content>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -60,5 +60,44 @@
 &lt;p&gt;Testing&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/statiqweb-example/posts/devlead</id>
+		<title>Devlead.Statiq - Part 1 - Tabs</title>
+		<author>
+			<name>devlead</name>
+		</author>
+		<link href="https://alex-hedley.github.io/statiqweb-example/posts/devlead" />
+		<updated>2021-04-09T00:00:00Z</updated>
+		<content>&lt;h2 id="tabgroup-shortcode"&gt;TabGroup Shortcode&lt;/h2&gt;
+&lt;?# TabGroup ?&gt;
+&lt;?*
+tabs:
+  - name: Introduction
+    content: |
+      Statiq [shortcodes](https://statiq.dev/framework/content/shortcodes) are small but powerful macros that can generate content or add metadata to your documents.
+
+      The `TabGroup` shortcode, is a CSS-only solution to simplify adding tabs in your Statiq input files.
+
+      Why add tabs? Well with some content, a good example of that is code samples, tabs make it easier to group content together, keep things more focused and reduce user vertical scrolling.
+
+      With the `TabGroup` shortcode tab content can be defined as either
+
+      - Content - markdown defined directly in the shortcode content
+      - Include - markdown fetched and processed from a external file
+      - Code - fetch external file into markdown code fence
+
+      the shortcode content is defined as `YAML`, you can within a single tab combine all variants (`content`, `include`, and `code`), and it'll render in the following order
+
+      1. `content`
+      1. `include`
+      1. `code`
+
+  - include: ./../includes/prerequisites.md
+
+?&gt;
+&lt;?#/ TabGroup ?&gt;
+</content>
+		<summary>An .NET assembly extending the static site generator Statiq with new core features</summary>
 	</entry>
 </feed>

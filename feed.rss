@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Mon, 15 May 2023 11:02:02 GMT</pubDate>
-		<lastBuildDate>Mon, 15 May 2023 11:02:02 GMT</lastBuildDate>
+		<pubDate>Mon, 15 May 2023 13:29:27 GMT</pubDate>
+		<lastBuildDate>Mon, 15 May 2023 13:29:27 GMT</lastBuildDate>
 		<item>
 			<title>3</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Mon, 15 May 2023 11:01:23 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Mon, 15 May 2023 11:01:23 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Mon, 15 May 2023 11:01:23 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,7 +48,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Mon, 15 May 2023 11:01:23 GMT</pubDate>
+			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -65,6 +65,44 @@
 			<content:encoded>&lt;h1 id="section"&gt;1&lt;/h1&gt;
 &lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Devlead.Statiq - Part 1 - Tabs</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/devlead</link>
+			<description>An .NET assembly extending the static site generator Statiq with new core features</description>
+			<author>devlead</author>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/devlead</guid>
+			<pubDate>Fri, 09 Apr 2021 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h2 id="tabgroup-shortcode"&gt;TabGroup Shortcode&lt;/h2&gt;
+&lt;?# TabGroup ?&gt;
+&lt;?*
+tabs:
+  - name: Introduction
+    content: |
+      Statiq [shortcodes](https://statiq.dev/framework/content/shortcodes) are small but powerful macros that can generate content or add metadata to your documents.
+
+      The `TabGroup` shortcode, is a CSS-only solution to simplify adding tabs in your Statiq input files.
+
+      Why add tabs? Well with some content, a good example of that is code samples, tabs make it easier to group content together, keep things more focused and reduce user vertical scrolling.
+
+      With the `TabGroup` shortcode tab content can be defined as either
+
+      - Content - markdown defined directly in the shortcode content
+      - Include - markdown fetched and processed from a external file
+      - Code - fetch external file into markdown code fence
+
+      the shortcode content is defined as `YAML`, you can within a single tab combine all variants (`content`, `include`, and `code`), and it'll render in the following order
+
+      1. `content`
+      1. `include`
+      1. `code`
+
+  - include: ./../includes/prerequisites.md
+
+?&gt;
+&lt;?#/ TabGroup ?&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>

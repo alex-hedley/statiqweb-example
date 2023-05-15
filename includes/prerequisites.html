@@ -6,9 +6,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Alex Hedley - 3</title>
+  <title>Alex Hedley - Prerequisites</title>
 
-  <link rel="canonical" href='https://alex-hedley.github.io/statiqweb-example/posts/3'>
+  <link rel="canonical" href='https://alex-hedley.github.io/statiqweb-example/includes/prerequisites'>
 
       <link type="application/rss+xml" rel="alternate" href="/statiqweb-example/feed.rss" />
       <link type="application/atom+xml" rel="alternate" href="/statiqweb-example/feed.atom" />
@@ -17,9 +17,9 @@
   <meta name="msapplication-tooltip" content='Alex Hedley' />
   <meta name="msapplication-starturl" content='/statiqweb-example/' />
 
-  <meta property="og:title" content='Alex Hedley - 3' />
+  <meta property="og:title" content='Alex Hedley - Prerequisites' />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content='https://alex-hedley.github.io/statiqweb-example/posts/3' />
+  <meta property="og:url" content='https://alex-hedley.github.io/statiqweb-example/includes/prerequisites' />
 
   <link rel="icon" href='/statiqweb-example/favicon.ico'>
 
@@ -75,11 +75,10 @@
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
-        <div class='post-heading'>
+        <div class='site-heading'>
           <h1>
-            3
+            Prerequisites
           </h1>
-            <div class="meta">Published on Monday, 15 May 2023</div>
         </div>
       </div>
     </div>
@@ -91,10 +90,21 @@
   <div class="container">
     <div class="row">
       <div id="content" class="col-md-12">
-        <h1 id="section">3</h1>
-<p>Hello from my third Statiq page.</p>
-<p>Testing</p>
+        <p>First of all in your Statiq App you need to add the <a href="https://www.nuget.org/packages/Devlead.Statiq">Devlead.Statiq</a> NuGet package to your Statiq web application.</p>
+<p>Enabling <code>TabGroup</code> shortcode is done by invoking the <code>AddTabGroupShortCode</code> extension on your Statiq app <a href="https://statiq.dev/framework/configuration/bootstrapper/">Bootstrapper</a> which will enable the shortcode and add the needed CSS file to your generation output.</p>
+<pre><code class="language-csharp">using System;
+using Devlead.Statiq.Tabs;
+using Statiq.App;
+using Statiq.Web;
 
+await Bootstrapper
+    .Factory
+    .CreateDefault(args)
+    .AddWeb()
+    .AddTabGroupShortCode()
+    .RunAsync();
+</code></pre>
+<p>The CSS file will end up in <code>output/scss/TabGroup.css</code> and you'll need to reference it where you link in your other CSS custom files (i.e. <code>_head.cshtml</code>), but for your convenience, I've created a <code>TabGroupCss</code> shortcode you can use i.e. with this site my <a href="https://github.com/devlead/devlead.se/blob/main/src/DevLead/input/_head.cshtml">_head.cshtml</a> looks like this</p>
 
         
 
