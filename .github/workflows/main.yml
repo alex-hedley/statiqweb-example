@@ -1,0 +1,36 @@
+name: 🚀 Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, dev ]
+    paths: src/**
+  pull_request:
+    branches: [ main ]
+    paths: src/**
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup .NET 7.0
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+#           include-prerelease: true
+
+      - name: 🔨 Build
+        run: dotnet build
+      
+      - name: 📦 Run
+        run: dotnet run
+
+      # https://github.com/marketplace/actions/github-pages-action
+      - name: 🚀 Deploy
+        uses: peaceiris/actions-gh-pages@v3.9.2
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: output
