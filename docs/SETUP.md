@@ -38,3 +38,9 @@ Testing
 `dotnet run -- preview`
 
 - http://localhost:5080
+
+## Theme
+
+`cd src`
+
+`git submodule add https://github.com/statiqdev/CleanBlog.git theme`
