@@ -28,6 +28,7 @@ jobs:
 #           include-prerelease: true
 
       - name: ⬇️ Restore dependencies
+        working-directory: ./src
         run: dotnet restore
 
       - name: 🔨 Build
