@@ -4,12 +4,12 @@
 	<title />
 	<link rel="self" href="https://alex-hedley.github.io/statiqweb-example" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-05-15T13:29:27Z</updated>
+	<updated>2023-05-16T10:52:44Z</updated>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/3</id>
 		<title>3</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/3" />
-		<updated>2023-05-15T13:29:02Z</updated>
+		<updated>2023-05-16T10:52:16Z</updated>
 		<content>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -20,7 +20,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/4</id>
 		<title>4</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/4" />
-		<updated>2023-05-15T13:29:02Z</updated>
+		<updated>2023-05-16T10:52:16Z</updated>
 		<content>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -31,7 +31,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/2</id>
 		<title>2</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/2" />
-		<updated>2023-05-15T13:29:02Z</updated>
+		<updated>2023-05-16T10:52:16Z</updated>
 		<content>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -42,12 +42,57 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/5</id>
 		<title>5</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/5" />
-		<updated>2023-05-15T13:29:02Z</updated>
+		<updated>2023-05-16T10:52:16Z</updated>
 		<content>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/statiqweb-example/posts/mermaid</id>
+		<title>Mermaid</title>
+		<author>
+			<name>alexhedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/statiqweb-example/posts/mermaid" />
+		<updated>2023-05-16T00:00:00Z</updated>
+		<content>&lt;p&gt;Add a file &lt;code&gt;_scripts.cshtml&lt;/code&gt;&lt;/p&gt;
+&lt;?# IncludeCode "./../_scripts.cshtml" /?&gt;
+&lt;div class="mermaid"&gt;flowchart LR
+    subgraph azureprod [Azure fa:fa-cloud]
+        AppProduction(App Service fa:fa-globe) --&gt; api-production[APIM fa:fa-sitemap&amp;lt;br&gt;api-production]
+        AppProduction --&gt; vnetprd[vnet-prd]
+    end
+    subgraph onpremprod [On-premises fa:fa-home]
+        vnetprd ----&gt; SQLProd[SQL Prod fa:fa-server ] --&gt; DBProd[(DBProd)]
+    end
+&lt;/div&gt;
+&lt;h2 id="devlead"&gt;[Devlead]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/_scripts.cshtml"&gt;scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/posts/Tabs.md"&gt;Tabs.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other"&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.dpvreony.com/articles/mermaid-with-statiq/"&gt;Using Mermaid diagrams with Statiq.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dpvreony/article-statiq-mermaid"&gt;repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://blog.beckshome.com/2022/09/mermaid-in-statiq"&gt;Mermaid Diagrams in Statiq&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/input/posts/mermaid-in-statiq.md"&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ociaw/StatiqMermaid"&gt;StatiqMermaid Repo&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Ociaw.StatiqMermaid/0.1.0-beta.2"&gt;nuget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+		<summary>How to add mermaid diagrams in statiq</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/1</id>

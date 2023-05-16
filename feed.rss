@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Mon, 15 May 2023 13:29:27 GMT</pubDate>
-		<lastBuildDate>Mon, 15 May 2023 13:29:27 GMT</lastBuildDate>
+		<pubDate>Tue, 16 May 2023 10:52:44 GMT</pubDate>
+		<lastBuildDate>Tue, 16 May 2023 10:52:44 GMT</lastBuildDate>
 		<item>
 			<title>3</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
+			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
+			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
+			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,10 +48,54 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Mon, 15 May 2023 13:29:02 GMT</pubDate>
+			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Mermaid</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/mermaid</link>
+			<description>How to add mermaid diagrams in statiq</description>
+			<author>alexhedley</author>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/mermaid</guid>
+			<pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;Add a file &lt;code&gt;_scripts.cshtml&lt;/code&gt;&lt;/p&gt;
+&lt;?# IncludeCode "./../_scripts.cshtml" /?&gt;
+&lt;div class="mermaid"&gt;flowchart LR
+    subgraph azureprod [Azure fa:fa-cloud]
+        AppProduction(App Service fa:fa-globe) --&gt; api-production[APIM fa:fa-sitemap&amp;lt;br&gt;api-production]
+        AppProduction --&gt; vnetprd[vnet-prd]
+    end
+    subgraph onpremprod [On-premises fa:fa-home]
+        vnetprd ----&gt; SQLProd[SQL Prod fa:fa-server ] --&gt; DBProd[(DBProd)]
+    end
+&lt;/div&gt;
+&lt;h2 id="devlead"&gt;[Devlead]&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/_scripts.cshtml"&gt;scripts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/posts/Tabs.md"&gt;Tabs.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="other"&gt;Other&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://www.dpvreony.com/articles/mermaid-with-statiq/"&gt;Using Mermaid diagrams with Statiq.&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/dpvreony/article-statiq-mermaid"&gt;repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://blog.beckshome.com/2022/09/mermaid-in-statiq"&gt;Mermaid Diagrams in Statiq&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/input/posts/mermaid-in-statiq.md"&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ociaw/StatiqMermaid"&gt;StatiqMermaid Repo&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Ociaw.StatiqMermaid/0.1.0-beta.2"&gt;nuget&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
