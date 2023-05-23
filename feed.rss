@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description />
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Tue, 16 May 2023 10:52:44 GMT</pubDate>
-		<lastBuildDate>Tue, 16 May 2023 10:52:44 GMT</lastBuildDate>
+		<pubDate>Tue, 23 May 2023 13:09:29 GMT</pubDate>
+		<lastBuildDate>Tue, 23 May 2023 13:09:29 GMT</lastBuildDate>
 		<item>
 			<title>3</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
+			<pubDate>Tue, 23 May 2023 13:08:52 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
+			<pubDate>Tue, 23 May 2023 13:08:52 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
+			<pubDate>Tue, 23 May 2023 13:08:52 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,7 +48,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Tue, 16 May 2023 10:52:16 GMT</pubDate>
+			<pubDate>Tue, 23 May 2023 13:08:52 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -109,6 +109,20 @@
 			<content:encoded>&lt;h1 id="section"&gt;1&lt;/h1&gt;
 &lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Gist</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/gist</link>
+			<description>Show a gist?</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/gist</guid>
+			<pubDate>Sun, 23 May 2021 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;?# IncludeCode https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m /?&gt;
+&lt;p&gt;See &lt;a href="https://alexhedley.wordpress.com/2014/09/20/reachability/"&gt;Reachability&lt;/a&gt; blog post which includes &lt;a href="https://gist.github.com/AlexHedley/2f257ee45d78b83631cc#file-gistfile1-m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[gist URL /]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully shows raw &lt;a href="https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
