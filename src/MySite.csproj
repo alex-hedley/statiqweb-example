@@ -8,8 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.54" />
-    <PackageReference Include="Devlead.Statiq" Version="0.18.0" />
+    <PackageReference Include="Statiq.Web" Version="1.0.0-beta.55" />
+    <PackageReference Include="Devlead.Statiq" Version="0.20.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.0.1" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta13" />
   </ItemGroup>
 
   <ItemGroup>
@@ -18,10 +20,16 @@
   </ItemGroup>
   
   <ItemGroup>
-    <Using Include="Devlead.Statiq"/>
-    <Using Include="Devlead.Statiq.Code"/>
-    <Using Include="Devlead.Statiq.Tabs"/>
-    <Using Include="Devlead.Statiq.Themes"/>
+    <Using Include="Devlead.Statiq" />
+    <Using Include="Devlead.Statiq.Code" />
+    <Using Include="Devlead.Statiq.Tabs" />
+    <Using Include="Devlead.Statiq.Themes" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Pipelines\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pipelines\" />
+  </ItemGroup>
 </Project>
