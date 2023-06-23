@@ -1,0 +1,62 @@
+﻿Title: Stats
+IsPage: true
+ShowInNavbar: true
+Order: 400
+---
+
+@*@model IDocument*@
+@*@inherits StatiqRazorPage<IDocument>*@
+
+<h2>Testing</h2>
+
+@*@foreach (IDocument post in Model.GetChildren())
+    {
+        @Html.Partial("/_post.cshtml", post)
+    }*@
+
+@* @foreach (IDocument document in Model.GetChildren())
+    {
+        @Html.Raw(document.GetString(Keys.Title))
+    } *@
+
+@* @foreach (IGrouping<int, IDocument> group in Document *@
+@* @foreach (IGrouping<int, IDocument> group in Model
+                                              .GetChildren()
+                                              .GroupBy(x => x.GetDateTime(WebKeys.Published).Year)
+                                              .OrderByDescending(x => x.Key))
+{
+    <h1 class="bg-dark text-light p-2">@group.Key: #@group.Count()</h1>
+} *@
+
+@* 
+@foreach (IDocument document in Model.GetChildren())
+{
+    <h5>@Html.DocumentLink(document)</h5>
+    @Html.Raw(document.GetString(Keys.Excerpt))
+}
+*@
+
+@* https://github.com/bradwellsb/statiq-blog-boilerplate/blob/ee3997ada974fbc8812ba3f76770b35c032031e5/input/blog/widgets/_archiveWidget.cshtml#L4 *@
+
+<div class="card">
+    <div class="card-header"><span class="oi oi-calendar"></span> Archives</div>
+    <div class="card-body">
+        @foreach (IGrouping<int, IDocument> yearGroup in Outputs
+           .FromPipeline(nameof(Content))
+           .Flatten()
+           .FilterSources($"posts/*")
+           .GroupBy(x => x.GetDateTime("Published").Year)
+           .OrderByDescending(x => x.Key))
+        {
+            <h5 class="card-title">@(yearGroup.Key)</h5>
+            <div class="card-text mb-2">
+                @foreach (IGrouping<(string, string), IDocument> monthGroup in yearGroup
+                   .GroupBy(doc => (doc.GetDateTime("Published").ToString("MM"), doc.GetDateTime("Published").ToString("MMMM")))
+                   .OrderByDescending(x => x.Key.Item1))
+                {
+                    <div><a href="@Constants.BlogPath/@(yearGroup.Key)/@(monthGroup.Key.Item1)/">@monthGroup.Key.Item2 (@monthGroup.Count())</a></div>
+                }
+            </div>
+        }
+    </div>
+</div>
