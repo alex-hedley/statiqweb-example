@@ -42,6 +42,20 @@ published: 2023-07-02
 
 ## Markdown
 
+**Relative**
+
+<?# Markdown ?>
+<?!^ "./../includes/posts/toc.md" /?>
+<?#/ Markdown ?>
+
+**Absolute**
+
+<?# Markdown ?>
+<?!^ "https://raw.githubusercontent.com/alex-hedley/statiqweb-example/main/src/includes/posts/toc.md" /?>
+<?#/ Markdown ?>
+
+<!-- ## Markdown
+
 <?# Markdown ?>
 <?!^ "https://raw.githubusercontent.com/statiqdev/Statiq.Web/main/LICENSE-FAQ.md" /?>
 <?#/ Markdown ?>
@@ -58,4 +72,4 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 
 <?# Raw ?>
 <?# Include "https://github.com/foo/bar/me.md" >
-<?#/ Raw ?>
+<?#/ Raw ?> -->

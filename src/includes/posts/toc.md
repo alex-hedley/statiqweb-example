@@ -6,10 +6,12 @@ START
 
 ### Markdown
 
-[mermaid](../../input/posts/mermaid.md)
+[mermaid](../../input/posts/mermaid.md) ❌
 
-[mermaid](posts/mermaid.md)
+[mermaid](posts/mermaid.md) ❌
 
-[mermaid](mermaid.md)
+[mermaid](mermaid.md) ❌
+
+[mermaid](mermaid) ✔
 
 FINISH
