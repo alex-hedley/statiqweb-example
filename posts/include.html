@@ -1,0 +1,435 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Options for include shortcode">
+    <meta name="author" content="alexhedley">
+
+  <title>Alex Hedley - include</title>
+
+  <link rel="canonical" href='https://alex-hedley.github.io/statiqweb-example/posts/include'>
+
+      <link type="application/rss+xml" rel="alternate" title="Alex Hedley" href="/statiqweb-example/feed.rss" />
+      <link type="application/atom+xml" rel="alternate" title="Alex Hedley" href="/statiqweb-example/feed.atom" />
+
+  <meta name="application-name" content='Alex Hedley' />
+  <meta name="msapplication-tooltip" content='Alex Hedley' />
+  <meta name="msapplication-starturl" content='/statiqweb-example/' />
+
+  <meta property="og:title" content='Alex Hedley - include' />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content='https://alex-hedley.github.io/statiqweb-example/posts/include' />
+
+  <link rel="icon" href='/statiqweb-example/favicon.ico'>
+
+  <!-- Custom fonts for this template -->
+  <link href='/statiqweb-example/vendor/fontawesome-free/css/all.min.css' rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" data-no-mirror>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" data-no-mirror>
+
+  <!-- Styles for this template (also includes Bootstrap) -->
+  <link href='/statiqweb-example/scss/clean-blog.css' rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js" data-no-mirror></script>
+  <script src="https://cdn.jsdelivr.net/npm/quicklink@2.3.0/dist/quicklink.umd.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet">
+
+  <link href="/statiqweb-example/scss/TabGroup.css" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href='/statiqweb-example/'>Alex Hedley</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+    <a class="nav-link" href="/statiqweb-example/posts">Posts</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/statiqweb-example/tags">Tags</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/statiqweb-example/stats">Stats</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/statiqweb-example/about">About</a>
+  </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+  <header class="masthead no-image">
+  <div class="container position-relative">
+    <div class="row">
+      <div class="col-md-12">
+        <div class='post-heading'>
+          <h1>
+            include
+          </h1>
+            <span class="subheading">Options for include shortcode</span>
+            <div class="meta">Published on Sunday, 2 July 2023</div>
+              <div class="mt-3">
+                  <a href="/statiqweb-example/tags/statiq" class="badge text-bg-light"> statiq</a>
+                  <a href="/statiqweb-example/tags/web" class="badge text-bg-light"> web</a>
+              </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div id="content" class="col-md-12">
+        <ul>
+<li><a href="https://www.statiq.dev/guide/content-and-data/shortcodes#processing-phases">Processing Phases</a></li>
+</ul>
+<h2 id="pre-rendering">Pre-rendering</h2>
+<pre><code class="language-html">&lt;?# Include &quot;./../includes/posts/toc.md&quot; /?&gt;
+</code></pre>
+/statiqweb-example/posts/mermaid
+
+[mermaid](../../input/posts/mermaid.md)
+
+<h2 id="intermediate">Intermediate</h2>
+<pre><code class="language-html">&lt;?# Link &quot;/posts/mermaid&quot; /?&gt;
+
+[mermaid](../../input/posts/mermaid.md)
+
+</code></pre>
+/statiqweb-example/posts/mermaid
+<p><a href="../../input/posts/mermaid.md">mermaid</a></p>
+<h2 id="post-rendering">Post-rendering</h2>
+<pre><code class="language-html">&lt;?^ Include &quot;./../includes/posts/toc.md&quot; /?&gt;
+</code></pre>
+/statiqweb-example/posts/mermaid
+
+[mermaid](../../input/posts/mermaid.md)
+
+<h2 id="markdown">Markdown</h2>
+<h1 id="statiq-licensing-faqs">Statiq Licensing FAQs</h1>
+<h2 id="how-is-statiq-licensed">How is Statiq licensed?</h2>
+<p>Statiq is licensed differently depending on the particular project:</p>
+<ul>
+<li><a href="https://github.com/statiqdev/Statiq.Web">Statiq Web</a> and other Statiq projects
+that build on top of <a href="https://github.com/statiqdev/Statiq.Framework">Statiq Framework</a> are dual-licensed under
+a <a href="https://github.com/statiqdev/Statiq.Web/blob/main/LICENSE.md">public license</a>
+for public use and a <a href="https://github.com/statiqdev/Statiq.Web/blob/main/LICENSE-PRIVATE.md">private license</a>
+for commercial use.
+Both licenses are similar to other open licenses like MIT, with additional restrictions on use.
+<ul>
+<li>The public license limits commercial use to fewer than 10 total individuals
+working as employees and independent contractors and less than 100,000 USD total revenue in the prior tax year.
+It also has exceptions for non-commercial use and trial use.</li>
+<li>The private license is per-developer and is similar to open licenses such as MIT with additional limits on assignment and sublicensing.</li>
+</ul>
+</li>
+<li><a href="https://github.com/statiqdev/Statiq.Framework">Statiq Framework</a> and most other peripheral Statiq projects such as the <a href="https://github.com/statiqdev/statiqdev.github.io">web site</a> are provided under a permissive MIT open-source license. This scheme is commonly referred to as &quot;<a href="https://en.wikipedia.org/wiki/Open-core_model">open-core</a>&quot; because the core of the project is available as open-source while expanded capabilities are offered under more restrictive terms.</li>
+</ul>
+<h2 id="how-do-i-purchase-a-private-license-for-one-or-more-developers">How do I purchase a private license for one or more developers?</h2>
+<p>Please purchase licenses from the Statiq website at <a href="https://www.statiq.dev/support/">https://www.statiq.dev/support/</a>.</p>
+<p>If you require an invoice, please <a href="mailto:dave@daveaglick.com">contact me</a> and I can send you one that contains payment
+instructions and a link for direct payment. Please include your billing name (or company name), billing email address,
+billing postal address, how many licenses should be included on the invoice, and any other details.</p>
+<p><strong>Note that only commercial use requires a license</strong>. If you are only using Statiq Framework or are using Statiq Web or other Statiq projects that are licensed under the public license but aren't exceeding the small business thresholds of employees and revenue, you don't need a private license. Other than the small business employee and revenue clause, the public license is essentially the same as any other permissive open-source license. Explicit exceptions are also provided in the public license for non-commercial and trial use to make that distinction clear.</p>
+<h2 id="how-much-is-the-license-fee-for-the-private-license">How much is the license fee for the private license?</h2>
+<p>The license fee for a private license is currently $50 per developer, per major version.
+Obtaining a private license for a particular major version of Statiq gives you the right
+to use that major version and all minor and patch versions after it for commercial purposes,
+forever, across all Statiq projects that are publicly licensed under the public license.
+In addition,
+if a new major version of Statiq is released within a one year grace period of purchasing a private license,
+a new private license covering the newly released major version will be provided.
+When a new major version of Statiq is released outside your one year grace period,
+you must obtain a new license to continue using it commercially.</p>
+<h2 id="i-still-have-concerns-about-the-vagueness-and-lack-of-legalese-in-the-license">I still have concerns about the vagueness and lack of legalese in the license.</h2>
+<p>The simplicity of the license is intentional.
+It uses everyday English specifically to make it easier for laypeople to understand and agree to.
+An individual developer shouldn't have
+to enlist a lawyer every time they need to decide if they can use an open source project.
+Likewise,
+open source projects should be free to choose more sophisticated licenses
+without resulting in complex legal review for users.
+Making all projects
+adhere to traditional OSI/FSF licenses that cannot apply restrictions on use greatly limits the ability of projects
+to identify and use sustainability and funding strategies that work for them.</p>
+<p>Here's the thing: I get it. The license is short and in the absence of lots of comforting legal jargon, how can it possibly be sound? If you don't agree that simple licenses provide the necessarily legal protections, how about this: <strong>I won't sue you</strong>. The license is primarily designed to express intent. The intent is that if you are commercially benefiting from the work that I've performed, I would like to share in that prosperity. If the language of the license combined with my assurances here does not provide you adequate legal protection, then I suggest you purchase a private license which removes uncertainty.</p>
+<h2 id="what-if-i-want-to-use-statiq-on-a-server">What if I want to use Statiq on a server?</h2>
+<p>That's fine as long as all developers that created and provisioned everything have a license.</p>
+<h2 id="what-if-i-work-for-a-non-profit">What if I work for a non-profit?</h2>
+<p>The public license addresses that directly:</p>
+<blockquote>
+<p>Use by any charitable organization, educational institution,
+public research organization, public safety or health
+organization, environmental protection organization,
+or government institution is use for a permitted purpose
+regardless of the source of funding or obligations resulting
+from the funding.</p>
+</blockquote>
+<h2 id="do-content-writers-and-other-people-that-work-on-the-inputs-to-the-tool-need-licenses">Do content writers and other people that work on the inputs to the tool need licenses?</h2>
+<p>No.
+Unless the user is running Statiq directly, using Statiq Web in a library or application,
+or instructing a server how to run Statiq they do not need a license because they are not a &quot;user&quot; of the project.
+It's expected that at least one person in each entity subject to the small business clause would require a license.</p>
+<h2 id="what-software-does-the-private-license-cover">What software does the private license cover?</h2>
+<p>The private license
+granted upon paying the license fee covers all software and projects under the Statiq organization.
+For example, it grants you the right to use both Statiq Web and Statiq Docs for commercial purposes.
+Statiq Framework, official themes,
+and other extensions are often licensed under more permissive terms and don't require a private license in any case.</p>
+<p>There are no other additional rights or privileges granted under the private license. Specifically, it does not guarantee enhanced (or even any) support or priority issue resolution.</p>
+<h2 id="you-mean-after-i-pay-the-license-fee-i-dont-get-support">You mean after I pay the license fee I don't get support?</h2>
+<p>That's correct. This is still a notionally open-source project and a small licensing fee does not cover an increased support burden. That said, I do my best to respond to every support request eventually (if not right away).</p>
+<h2 id="if-i-purchase-a-license-do-other-users-of-the-application-i-built-with-statiq-also-require-one">If I purchase a license, do other users of the application I built with Statiq also require one?</h2>
+<p>No. In general the private license includes provisions for sublicensing to your users as long as they don't then use the tools to create their own software.</p>
+<h2 id="but-this-isnt-actually-open-source">But this isn't actually open-source!</h2>
+<p>You're correct, at least for the &quot;official&quot; definition of open source.
+Both the <a href="https://www.gnu.org/philosophy/free-sw.en.html">Free Software Foundation</a> and the <a href="https://opensource.org/osd-annotated">Open Source Initiative</a> explicitly exclude software that contains limits on use from the definition of &quot;open source&quot;.
+For this reason, the public license this project uses is not, and likely never will be, an OSI-approved license.</p>
+<p>I understand that &quot;free software&quot; and &quot;open source&quot; generate a lot of feelings. If you prefer to call this project proprietary because of the way it's licensed, so be it. This is <em>&quot;a proprietary project with freely available source code that can be used without restriction for non-commercial purposes and that engages with its community of users and accepts and encourages their contributions to source code, documentation, and support when they feel it's in their best interest to do so&quot;</em>. Call that model whatever you want.</p>
+<h2 id="why-not-use-a-copyleft-license-instead">Why not use a copyleft license instead?</h2>
+<p>A copyleft license places restrictions on consumers that enforce the &quot;openness&quot; of the software. This is great if your goal is to further the reach of the openness but does nothing to address the sustainability problem. It also places these restrictions indiscriminately - it doesn't matter if you're using the project for commercial or non-commercial uses. When tied to a dual-licensing model in which a less restrictive private license can be purchased, the incentive for doing so is connected to an assumption that licensees have an interest in using the software in a less open environment such as closed-source.</p>
+<p>Rather than tie funding to whether or not the consumer wants to also make their code open, it makes more sense to me to tie <em>paying</em> money <em>for</em> use to <em>getting</em> money <em>from</em> use. In other words, <em>if you're generating revenue in part because of the work done on this project, then you should share some of that with the person who did the work you're using to generate the revenue</em>.</p>
+<p>There's also a practical matter in that copyleft licenses only work well with libraries because the license deals with what happens to code that consumes or uses the copyleft-licensed software. Statiq is generally used in an application so it's not usually integrated with other code for distribution, making the provisions of a copyleft license less applicable.</p>
+<h2 id="i-want-to-contribute-why-do-you-make-me-sign-a-cla">I want to contribute, why do you make me sign a CLA?</h2>
+<p>When an open source project uses a non-permissive license the question of how to deal with contributions comes up.
+A contributor license agreement (CLA)
+clarifies what will happen to the contributed code and requires the contributor to agree to it,
+waiving some of their own copyrights in the process.
+It's unfortunate and does add a burden to the contribution process
+but it's necessary to ensure the entire project stays properly licensed and contributions
+can be licensed under the terms of the public license <em>and</em> the private license.
+Statiq's Contributor Agreement](<a href="https://gist.github.com/daveaglick/c7cccacdf7f3d57d05462a64d578d0a5">https://gist.github.com/daveaglick/c7cccacdf7f3d57d05462a64d578d0a5</a>) is designed
+to be as simple as possible while granting the broadest rights to the project under a non-exclusive agreement
+(it was developed using <a href="http://contributoragreements.org/">Contributor Agreements</a> and then slightly modified).</p>
+<p>I hope that you understand why a CLA is needed and that it doesn't keep you from contributing. That said, you need to decide if you derive enough value from submitting a contribution (such as adding support for a feature you need) to agree to the terms of the CLA. If not then I would caution you not to undertake performing work on the project.</p>
+<h2 id="what-about-the-contributions-back-when-statiq-was-wyam">What about the contributions back when Statiq was Wyam?</h2>
+<p>Wyam was licensed under a permissive MIT license
+and so all contributions prior to the release of Statiq would have also fallen under that license.
+To put it another way, the MIT licensing of the project meant that anyone,
+including the project itself, could come along,
+take the code, and do whatever they wanted with it including re-licensing or charging for it.
+I'm more than happy
+to grant a Waiver to anyone who previously contributed to Wyam
+and would like to remove the non-commercial clause of the public license.</p>
+
+<pre><code class="language-html">&lt;?# Markdown ?&gt;
+# Statiq Licensing FAQs
+
+## How is Statiq licensed?
+
+Statiq is licensed differently depending on the particular project:
+
+- [Statiq Web](https://github.com/statiqdev/Statiq.Web) and other Statiq projects
+  that build on top of [Statiq Framework](https://github.com/statiqdev/Statiq.Framework) are dual-licensed under
+  a [public license](https://github.com/statiqdev/Statiq.Web/blob/main/LICENSE.md)
+  for public use and a [private license](https://github.com/statiqdev/Statiq.Web/blob/main/LICENSE-PRIVATE.md)
+  for commercial use.
+  Both licenses are similar to other open licenses like MIT, with additional restrictions on use.
+    - The public license limits commercial use to fewer than 10 total individuals
+      working as employees and independent contractors and less than 100,000 USD total revenue in the prior tax year.
+      It also has exceptions for non-commercial use and trial use.
+    - The private license is per-developer and is similar to open licenses such as MIT with additional limits on assignment and sublicensing.
+- [Statiq Framework](https://github.com/statiqdev/Statiq.Framework) and most other peripheral Statiq projects such as the [web site](https://github.com/statiqdev/statiqdev.github.io) are provided under a permissive MIT open-source license. This scheme is commonly referred to as &quot;[open-core](https://en.wikipedia.org/wiki/Open-core_model)&quot; because the core of the project is available as open-source while expanded capabilities are offered under more restrictive terms.
+
+## How do I purchase a private license for one or more developers?
+
+Please purchase licenses from the Statiq website at [https://www.statiq.dev/support/](https://www.statiq.dev/support/).
+
+If you require an invoice, please [contact me](mailto:dave@daveaglick.com) and I can send you one that contains payment
+instructions and a link for direct payment. Please include your billing name (or company name), billing email address,
+billing postal address, how many licenses should be included on the invoice, and any other details.
+
+**Note that only commercial use requires a license**. If you are only using Statiq Framework or are using Statiq Web or other Statiq projects that are licensed under the public license but aren't exceeding the small business thresholds of employees and revenue, you don't need a private license. Other than the small business employee and revenue clause, the public license is essentially the same as any other permissive open-source license. Explicit exceptions are also provided in the public license for non-commercial and trial use to make that distinction clear.
+
+## How much is the license fee for the private license?
+
+The license fee for a private license is currently $50 per developer, per major version.
+Obtaining a private license for a particular major version of Statiq gives you the right
+to use that major version and all minor and patch versions after it for commercial purposes,
+forever, across all Statiq projects that are publicly licensed under the public license.
+In addition,
+if a new major version of Statiq is released within a one year grace period of purchasing a private license,
+a new private license covering the newly released major version will be provided.
+When a new major version of Statiq is released outside your one year grace period,
+you must obtain a new license to continue using it commercially.
+
+## I still have concerns about the vagueness and lack of legalese in the license.
+
+The simplicity of the license is intentional.
+It uses everyday English specifically to make it easier for laypeople to understand and agree to.
+An individual developer shouldn't have
+to enlist a lawyer every time they need to decide if they can use an open source project.
+Likewise,
+open source projects should be free to choose more sophisticated licenses
+without resulting in complex legal review for users.
+Making all projects
+adhere to traditional OSI/FSF licenses that cannot apply restrictions on use greatly limits the ability of projects
+to identify and use sustainability and funding strategies that work for them.
+
+Here's the thing: I get it. The license is short and in the absence of lots of comforting legal jargon, how can it possibly be sound? If you don't agree that simple licenses provide the necessarily legal protections, how about this: **I won't sue you**. The license is primarily designed to express intent. The intent is that if you are commercially benefiting from the work that I've performed, I would like to share in that prosperity. If the language of the license combined with my assurances here does not provide you adequate legal protection, then I suggest you purchase a private license which removes uncertainty.
+
+## What if I want to use Statiq on a server?
+
+That's fine as long as all developers that created and provisioned everything have a license.
+
+## What if I work for a non-profit?
+
+The public license addresses that directly:
+
+&gt; Use by any charitable organization, educational institution,
+public research organization, public safety or health
+organization, environmental protection organization,
+or government institution is use for a permitted purpose
+regardless of the source of funding or obligations resulting
+from the funding.
+
+## Do content writers and other people that work on the inputs to the tool need licenses?
+
+No.
+Unless the user is running Statiq directly, using Statiq Web in a library or application,
+or instructing a server how to run Statiq they do not need a license because they are not a &quot;user&quot; of the project.
+It's expected that at least one person in each entity subject to the small business clause would require a license.
+
+## What software does the private license cover?
+
+The private license
+granted upon paying the license fee covers all software and projects under the Statiq organization.
+For example, it grants you the right to use both Statiq Web and Statiq Docs for commercial purposes.
+Statiq Framework, official themes,
+and other extensions are often licensed under more permissive terms and don't require a private license in any case.
+
+There are no other additional rights or privileges granted under the private license. Specifically, it does not guarantee enhanced (or even any) support or priority issue resolution.
+
+## You mean after I pay the license fee I don't get support?
+
+That's correct. This is still a notionally open-source project and a small licensing fee does not cover an increased support burden. That said, I do my best to respond to every support request eventually (if not right away).
+
+## If I purchase a license, do other users of the application I built with Statiq also require one?
+
+No. In general the private license includes provisions for sublicensing to your users as long as they don't then use the tools to create their own software.
+
+## But this isn't actually open-source!
+
+You're correct, at least for the &quot;official&quot; definition of open source.
+Both the [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.en.html) and the [Open Source Initiative](https://opensource.org/osd-annotated) explicitly exclude software that contains limits on use from the definition of &quot;open source&quot;.
+For this reason, the public license this project uses is not, and likely never will be, an OSI-approved license.
+
+I understand that &quot;free software&quot; and &quot;open source&quot; generate a lot of feelings. If you prefer to call this project proprietary because of the way it's licensed, so be it. This is _&quot;a proprietary project with freely available source code that can be used without restriction for non-commercial purposes and that engages with its community of users and accepts and encourages their contributions to source code, documentation, and support when they feel it's in their best interest to do so&quot;_. Call that model whatever you want.
+
+## Why not use a copyleft license instead?
+
+A copyleft license places restrictions on consumers that enforce the &quot;openness&quot; of the software. This is great if your goal is to further the reach of the openness but does nothing to address the sustainability problem. It also places these restrictions indiscriminately - it doesn't matter if you're using the project for commercial or non-commercial uses. When tied to a dual-licensing model in which a less restrictive private license can be purchased, the incentive for doing so is connected to an assumption that licensees have an interest in using the software in a less open environment such as closed-source.
+
+Rather than tie funding to whether or not the consumer wants to also make their code open, it makes more sense to me to tie _paying_ money _for_ use to _getting_ money _from_ use. In other words, _if you're generating revenue in part because of the work done on this project, then you should share some of that with the person who did the work you're using to generate the revenue_.
+
+There's also a practical matter in that copyleft licenses only work well with libraries because the license deals with what happens to code that consumes or uses the copyleft-licensed software. Statiq is generally used in an application so it's not usually integrated with other code for distribution, making the provisions of a copyleft license less applicable.
+
+## I want to contribute, why do you make me sign a CLA?
+
+When an open source project uses a non-permissive license the question of how to deal with contributions comes up.
+A contributor license agreement (CLA)
+clarifies what will happen to the contributed code and requires the contributor to agree to it,
+waiving some of their own copyrights in the process.
+It's unfortunate and does add a burden to the contribution process
+but it's necessary to ensure the entire project stays properly licensed and contributions
+can be licensed under the terms of the public license _and_ the private license.
+Statiq's Contributor Agreement](https://gist.github.com/daveaglick/c7cccacdf7f3d57d05462a64d578d0a5) is designed
+to be as simple as possible while granting the broadest rights to the project under a non-exclusive agreement
+(it was developed using [Contributor Agreements](http://contributoragreements.org/) and then slightly modified).
+
+I hope that you understand why a CLA is needed and that it doesn't keep you from contributing. That said, you need to decide if you derive enough value from submitting a contribution (such as adding support for a feature you need) to agree to the terms of the CLA. If not then I would caution you not to undertake performing work on the project.
+
+## What about the contributions back when Statiq was Wyam?
+
+Wyam was licensed under a permissive MIT license
+and so all contributions prior to the release of Statiq would have also fallen under that license.
+To put it another way, the MIT licensing of the project meant that anyone,
+including the project itself, could come along,
+take the code, and do whatever they wanted with it including re-licensing or charging for it.
+I'm more than happy
+to grant a Waiver to anyone who previously contributed to Wyam
+and would like to remove the non-commercial clause of the public license.
+&lt;?#/ Markdown ?&gt;
+</code></pre>
+
+
+        
+
+      </div>
+    </div>
+  <div id="comments-container" class="row">
+    <script src="https://giscus.app/client.js"
+        data-repo='alex-hedley/statiqweb-example'
+        data-repo-id='R_kgDOJjIvYg'
+        data-category-id='DIC_kwDOJjIvYs4CW2pE'
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+
+  </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p class="copyright">Copyright &#xA9; 2023</p>
+
+        <ul class="list-inline text-center small">
+            <li class="list-inline-item">
+              <a href="/statiqweb-example/feed.rss"><i class="fa fa-rss"></i> RSS Feed</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="/statiqweb-example/feed.atom"><i class="fa fa-rss"></i> Atom Feed</a>
+            </li>
+        </ul>
+        <br />
+        <div class="font-weight-bold small"><a href="https://statiq.dev">Generated by Statiq</a></div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Scripts -->
+  <script src='/statiqweb-example/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+  <script src='/statiqweb-example/vendor/startbootstrap-clean-blog/js/scripts.js'></script>
+  <script src='/statiqweb-example/js/clean-blog.js'></script>
+  <script src="https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js" integrity="sha384-nVmn6yKHyUktDHdQfBgpn1YPgEu8gDXTYI5qccfkF1j6oxBHjKEafySIuNs3UhEW" crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>
