@@ -18,6 +18,8 @@ published: 2023-07-02
 
 <?# Include "./../includes/posts/toc.md" /?>
 
+---
+
 ## Intermediate
 
 ```html
@@ -26,6 +28,8 @@ published: 2023-07-02
 
 <?! Include "./../includes/posts/toc.md" /?>
 
+---
+
 ## Post-rendering
 
 ```html
@@ -33,6 +37,8 @@ published: 2023-07-02
 ```
 
 <?^ Include "./../includes/posts/toc.md" /?>
+
+---
 
 ## Markdown
 
@@ -45,3 +51,11 @@ published: 2023-07-02
 <?!^ "https://raw.githubusercontent.com/statiqdev/Statiq.Web/main/LICENSE-FAQ.md" /?>
 <?#/ Markdown ?>
 ```
+
+---
+
+https://github.com/covidsafewatch/website/blob/master/input/issue-register/transparency.md?plain=1
+
+<?# Raw ?>
+<?# Include "https://github.com/foo/bar/me.md" >
+<?#/ Raw ?>
