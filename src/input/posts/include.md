@@ -12,25 +12,25 @@ published: 2023-07-02
 
 ## Pre-rendering
 
-<?! Raw ?>
+```html
 <?# Include "./../includes/posts/toc.md" /?>
-<?# Raw ?>
+```
 
 <?# Include "./../includes/posts/toc.md" /?>
 
 ## Intermediate
 
-<?! Raw ?>
+```html
 <?! Include "./../includes/posts/toc.md" /?>
-<?# Raw ?>
+```
 
 <?! Include "./../includes/posts/toc.md" /?>
 
 ## Post-rendering
 
-<?! Raw ?>
+```html
 <?^ Include "./../includes/posts/toc.md" /?>
-<?# Raw ?>
+```
 
 <?^ Include "./../includes/posts/toc.md" /?>
 
@@ -40,8 +40,8 @@ published: 2023-07-02
 <?!^ "https://raw.githubusercontent.com/statiqdev/Statiq.Web/main/LICENSE-FAQ.md" /?>
 <?#/ Markdown ?>
 
-<?! Raw ?>
+```html
 <?# Markdown ?>
 <?!^ "https://raw.githubusercontent.com/statiqdev/Statiq.Web/main/LICENSE-FAQ.md" /?>
 <?#/ Markdown ?>
-<?# Raw ?>
+```
