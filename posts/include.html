@@ -107,26 +107,71 @@
 <h2 id="pre-rendering">Pre-rendering</h2>
 <pre><code class="language-html">&lt;?# Include &quot;./../includes/posts/toc.md&quot; /?&gt;
 </code></pre>
+START
+
+### Link shortcode
+
 /statiqweb-example/posts/mermaid
 
+### Markdown
+
 [mermaid](../../input/posts/mermaid.md)
 
+[mermaid](posts/mermaid.md)
+
+[mermaid](mermaid.md)
+
+FINISH
+
+<hr />
 <h2 id="intermediate">Intermediate</h2>
-<pre><code class="language-html">&lt;?# Link &quot;/posts/mermaid&quot; /?&gt;
+<pre><code class="language-html">START
+
+### Link shortcode
+
+&lt;?# Link &quot;/posts/mermaid&quot; /?&gt;
+
+### Markdown
 
 [mermaid](../../input/posts/mermaid.md)
+
+[mermaid](posts/mermaid.md)
+
+[mermaid](mermaid.md)
+
+FINISH
 
 </code></pre>
+<p>START</p>
+<h3 id="link-shortcode">Link shortcode</h3>
 /statiqweb-example/posts/mermaid
+<h3 id="markdown">Markdown</h3>
 <p><a href="../../input/posts/mermaid.md">mermaid</a></p>
+<p><a href="posts/mermaid.md">mermaid</a></p>
+<p><a href="mermaid.md">mermaid</a></p>
+<p>FINISH</p>
+<hr />
 <h2 id="post-rendering">Post-rendering</h2>
 <pre><code class="language-html">&lt;?^ Include &quot;./../includes/posts/toc.md&quot; /?&gt;
 </code></pre>
+START
+
+### Link shortcode
+
 /statiqweb-example/posts/mermaid
+
+### Markdown
 
 [mermaid](../../input/posts/mermaid.md)
 
-<h2 id="markdown">Markdown</h2>
+[mermaid](posts/mermaid.md)
+
+[mermaid](mermaid.md)
+
+FINISH
+
+<hr />
+<h2 id="markdown-1">Markdown</h2>
 <h1 id="statiq-licensing-faqs">Statiq Licensing FAQs</h1>
 <h2 id="how-is-statiq-licensed">How is Statiq licensed?</h2>
 <p>Statiq is licensed differently depending on the particular project:</p>
@@ -372,6 +417,11 @@ to grant a Waiver to anyone who previously contributed to Wyam
 and would like to remove the non-commercial clause of the public license.
 &lt;?#/ Markdown ?&gt;
 </code></pre>
+<hr />
+<p><a href="https://github.com/covidsafewatch/website/blob/master/input/issue-register/transparency.md?plain=1">https://github.com/covidsafewatch/website/blob/master/input/issue-register/transparency.md?plain=1</a></p>
+
+<?# Include "https://github.com/foo/bar/me.md" >
+
 
 
         

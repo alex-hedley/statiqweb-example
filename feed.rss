@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Sun, 02 Jul 2023 13:50:02 GMT</pubDate>
-		<lastBuildDate>Sun, 02 Jul 2023 13:50:02 GMT</lastBuildDate>
+		<pubDate>Sun, 02 Jul 2023 13:56:11 GMT</pubDate>
+		<lastBuildDate>Sun, 02 Jul 2023 13:56:11 GMT</lastBuildDate>
 		<item>
 			<title>5</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Sun, 02 Jul 2023 13:49:28 GMT</pubDate>
+			<pubDate>Sun, 02 Jul 2023 13:55:43 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Sun, 02 Jul 2023 13:49:28 GMT</pubDate>
+			<pubDate>Sun, 02 Jul 2023 13:55:43 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Sun, 02 Jul 2023 13:49:28 GMT</pubDate>
+			<pubDate>Sun, 02 Jul 2023 13:55:43 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,7 +48,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Sun, 02 Jul 2023 13:49:28 GMT</pubDate>
+			<pubDate>Sun, 02 Jul 2023 13:55:43 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -69,22 +69,55 @@
 &lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;?# Include "./../includes/posts/toc.md" /?&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;!--?# Include "./../includes/posts/toc.md" /?--&gt;
+&lt;hr&gt;
 &lt;h2 id="intermediate"&gt;Intermediate&lt;/h2&gt;
-&lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;?# Link "/posts/mermaid" /?&amp;gt;
+&lt;pre&gt;&lt;code class="language-html"&gt;START
+
+### Link shortcode
+
+&amp;lt;?# Link "/posts/mermaid" /?&amp;gt;
+
+### Markdown
 
 [mermaid](../../input/posts/mermaid.md)
 
+[mermaid](posts/mermaid.md)
+
+[mermaid](mermaid.md)
+
+FINISH
+
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;START&lt;/p&gt;
+&lt;h3 id="link-shortcode"&gt;Link shortcode&lt;/h3&gt;
 &lt;!--?# Link "/posts/mermaid" /?--&gt;
+&lt;h3 id="markdown"&gt;Markdown&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://alex-hedley.github.io/input/posts/mermaid.md"&gt;mermaid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alex-hedley.github.io/statiqweb-example/posts/mermaid.md"&gt;mermaid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://alex-hedley.github.io/statiqweb-example/mermaid.md"&gt;mermaid&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;FINISH&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id="post-rendering"&gt;Post-rendering&lt;/h2&gt;
 &lt;pre&gt;&lt;code class="language-html"&gt;&amp;lt;?^ Include "./../includes/posts/toc.md" /?&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+START
+
+### Link shortcode
+
 &lt;!--?# Link "/posts/mermaid" /?--&gt;
+
+### Markdown
 
 [mermaid](../../input/posts/mermaid.md)
 
-&lt;h2 id="markdown"&gt;Markdown&lt;/h2&gt;
+[mermaid](posts/mermaid.md)
+
+[mermaid](mermaid.md)
+
+FINISH
+
+&lt;hr&gt;
+&lt;h2 id="markdown-1"&gt;Markdown&lt;/h2&gt;
 &lt;!--?# Markdown ?--&gt;
 &lt;h1 id="statiq-licensing-faqs"&gt;Statiq Licensing FAQs&lt;/h1&gt;
 &lt;h2 id="how-is-statiq-licensed"&gt;How is Statiq licensed?&lt;/h2&gt;
@@ -331,6 +364,11 @@ to grant a Waiver to anyone who previously contributed to Wyam
 and would like to remove the non-commercial clause of the public license.
 &amp;lt;?#/ Markdown ?&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://github.com/covidsafewatch/website/blob/master/input/issue-register/transparency.md?plain=1"&gt;https://github.com/covidsafewatch/website/blob/master/input/issue-register/transparency.md?plain=1&lt;/a&gt;&lt;/p&gt;
+&lt;!--?# Raw ?--&gt;
+&lt;!--?# Include "https://github.com/foo/bar/me.md" --&gt;
+&lt;!--?#/ Raw ?--&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
