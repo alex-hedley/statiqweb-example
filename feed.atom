@@ -4,13 +4,13 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/statiqweb-example" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-12-22T16:00:53Z</updated>
+	<updated>2023-12-22T16:19:37Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/2</id>
 		<title>2</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/2" />
-		<updated>2023-12-22T16:00:12Z</updated>
+		<updated>2023-12-22T16:18:52Z</updated>
 		<content>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -21,7 +21,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/4</id>
 		<title>4</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/4" />
-		<updated>2023-12-22T16:00:12Z</updated>
+		<updated>2023-12-22T16:18:52Z</updated>
 		<content>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -32,7 +32,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/3</id>
 		<title>3</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/3" />
-		<updated>2023-12-22T16:00:12Z</updated>
+		<updated>2023-12-22T16:18:52Z</updated>
 		<content>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -43,7 +43,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/5</id>
 		<title>5</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/5" />
-		<updated>2023-12-22T16:00:12Z</updated>
+		<updated>2023-12-22T16:18:52Z</updated>
 		<content>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -500,15 +500,21 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 		</author>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/gist" />
 		<updated>2021-05-23T00:00:00Z</updated>
-		<content>&lt;?# IncludeCode https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m /?&gt;
-&lt;p&gt;See &lt;a href="https://alexhedley.wordpress.com/2014/09/20/reachability/"&gt;Reachability&lt;/a&gt; blog post which includes &lt;a href="https://gist.github.com/AlexHedley/2f257ee45d78b83631cc#file-gistfile1-m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;[gist URL /]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Hopefully shows raw &lt;a href="https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
+		<content>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.statiq.dev/api/statiq.web.shortcodes/"&gt;https://www.statiq.dev/api/statiq.web.shortcodes/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.statiq.dev/guide/content-and-data/shortcodes"&gt;https://www.statiq.dev/guide/content-and-data/shortcodes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;hr /&gt;
 &lt;p&gt;&lt;code&gt;2f257ee45d78b83631cc&lt;/code&gt;&lt;/p&gt;
 &lt;?# Gist 2f257ee45d78b83631cc /?&gt;
 &lt;p&gt;&lt;code&gt;213fc696be16de0fae376f1ec84560c27099cc78&lt;/code&gt;&lt;/p&gt;
 &lt;?# Gist 213fc696be16de0fae376f1ec84560c27099cc78 /?&gt;
+&lt;hr /&gt;
+&lt;h2 id="attempts"&gt;Attempts&lt;/h2&gt;
+&lt;?# IncludeCode https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m /?&gt;
+&lt;p&gt;See &lt;a href="https://alexhedley.wordpress.com/2014/09/20/reachability/"&gt;Reachability&lt;/a&gt; blog post which includes &lt;a href="https://gist.github.com/AlexHedley/2f257ee45d78b83631cc#file-gistfile1-m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[gist URL /]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Hopefully shows raw &lt;a href="https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
 </content>
 		<summary>Show a gist?</summary>
 	</entry>
