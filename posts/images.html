@@ -5,12 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="An .NET assembly extending the static site generator Statiq with new core features">
-    <meta name="author" content="devlead">
 
-  <title>Alex Hedley - Devlead.Statiq - Part 1 - Tabs</title>
+  <title>Alex Hedley - Images in main listing</title>
 
-  <link rel="canonical" href='https://alex-hedley.github.io/statiqweb-example/posts/devlead'>
+  <link rel="canonical" href='https://alex-hedley.github.io/statiqweb-example/posts/images'>
 
       <link type="application/rss+xml" rel="alternate" title="Alex Hedley" href="/statiqweb-example/feed.rss" />
       <link type="application/atom+xml" rel="alternate" title="Alex Hedley" href="/statiqweb-example/feed.atom" />
@@ -19,9 +17,10 @@
   <meta name="msapplication-tooltip" content='Alex Hedley' />
   <meta name="msapplication-starturl" content='/statiqweb-example/' />
 
-  <meta property="og:title" content='Alex Hedley - Devlead.Statiq - Part 1 - Tabs' />
+  <meta property="og:title" content='Alex Hedley - Images in main listing' />
+    <meta property="og:image" content='/statiqweb-example/posts/images/background.jpg' />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content='https://alex-hedley.github.io/statiqweb-example/posts/devlead' />
+  <meta property="og:url" content='https://alex-hedley.github.io/statiqweb-example/posts/images' />
 
   <link rel="icon" href='/statiqweb-example/favicon.ico'>
 
@@ -84,27 +83,26 @@
 
 
   <!-- Page Header -->
-  <header class="masthead no-image">
+  <header class="masthead" style="background-image: url(&quot;/statiqweb-example/posts/images/background.jpg&quot;)">
   <div class="container position-relative">
     <div class="row">
       <div class="col-md-12">
         <div class='post-heading'>
           <h1>
-            Devlead.Statiq - Part 1 - Tabs
+            Images in main listing
           </h1>
-            <span class="subheading">An .NET assembly extending the static site generator Statiq with new core features</span>
-            <div class="meta">Published on Friday, 9 April 2021</div>
+            <span class="subheading">Sub title</span>
+            <div class="meta">Published on Sunday, 1 January 2023</div>
               <div class="mt-3">
-                  <a href="/statiqweb-example/tags/net" class="badge text-bg-light"> .NET</a>
-                  <a href="/statiqweb-example/tags/nuget" class="badge text-bg-light"> NuGet</a>
-                  <a href="/statiqweb-example/tags/c" class="badge text-bg-light"> C#</a>
-                  <a href="/statiqweb-example/tags/statiq" class="badge text-bg-light"> statiq</a>
-                  <a href="/statiqweb-example/tags/devlead.statiq" class="badge text-bg-light"> Devlead.Statiq</a>
+                  <a href="/statiqweb-example/tags/thoughts" class="badge text-bg-light"> thoughts</a>
+                  <a href="/statiqweb-example/tags/learning" class="badge text-bg-light"> learning</a>
               </div>
         </div>
       </div>
     </div>
   </div>
+    <div class="image-attribution badge text-bg-secondary rounded-pill"><p>https://unsplash.com/photos/QWutu2BRpOs</p>
+</div>
 </header>
 
 
@@ -112,52 +110,9 @@
   <div class="container">
     <div class="row">
       <div id="content" class="col-md-12">
-        <h2 id="tabgroup-shortcode">TabGroup Shortcode</h2>
-<div class="tab-wrap">
-<input type="radio" id="11b2ce6358c941a6875f998121432907-c1444d93afab466ba23f5bd9e47818ce" name="11b2ce6358c941a6875f998121432907" class="tab" checked><label for="11b2ce6358c941a6875f998121432907-c1444d93afab466ba23f5bd9e47818ce" >Introduction</label>
-<input type="radio" id="11b2ce6358c941a6875f998121432907-412ecec572c14fa98187c60c93ba6e02" name="11b2ce6358c941a6875f998121432907" class="tab" ><label for="11b2ce6358c941a6875f998121432907-412ecec572c14fa98187c60c93ba6e02" >Prerequisites</label>
-<div class="tab__content">
-
-<p>Statiq <a href="https://statiq.dev/framework/content/shortcodes">shortcodes</a> are small but powerful macros that can generate content or add metadata to your documents.</p>
-<p>The <code>TabGroup</code> shortcode, is a CSS-only solution to simplify adding tabs in your Statiq input files.</p>
-<p>Why add tabs? Well with some content, a good example of that is code samples, tabs make it easier to group content together, keep things more focused and reduce user vertical scrolling.</p>
-<p>With the <code>TabGroup</code> shortcode tab content can be defined as either</p>
-<ul>
-<li>Content - markdown defined directly in the shortcode content</li>
-<li>Include - markdown fetched and processed from a external file</li>
-<li>Code - fetch external file into markdown code fence</li>
-</ul>
-<p>the shortcode content is defined as <code>YAML</code>, you can within a single tab combine all variants (<code>content</code>, <code>include</code>, and <code>code</code>), and it'll render in the following order</p>
-<ol>
-<li><code>content</code></li>
-<li><code>include</code></li>
-<li><code>code</code></li>
-</ol>
-
-
-</div>
-<div class="tab__content">
-
-<p>First of all in your Statiq App you need to add the <a href="https://www.nuget.org/packages/Devlead.Statiq">Devlead.Statiq</a> NuGet package to your Statiq web application.</p>
-<p>Enabling <code>TabGroup</code> shortcode is done by invoking the <code>AddTabGroupShortCode</code> extension on your Statiq app <a href="https://statiq.dev/framework/configuration/bootstrapper/">Bootstrapper</a> which will enable the shortcode and add the needed CSS file to your generation output.</p>
-<pre><code class="language-csharp">using System;
-using Devlead.Statiq.Tabs;
-using Statiq.App;
-using Statiq.Web;
-
-await Bootstrapper
-    .Factory
-    .CreateDefault(args)
-    .AddWeb()
-    .AddTabGroupShortCode()
-    .RunAsync();
-</code></pre>
-<p>The CSS file will end up in <code>output/scss/TabGroup.css</code> and you'll need to reference it where you link in your other CSS custom files (i.e. <code>_head.cshtml</code>), but for your convenience, I've created a <code>TabGroupCss</code> shortcode you can use i.e. with this site my <a href="https://github.com/devlead/devlead.se/blob/main/src/DevLead/input/_head.cshtml">_head.cshtml</a> looks like this</p>
-
-
-</div>
-</div>
-
+        <h1 id="images">Images</h1>
+<p><img src="images/background.jpg" alt="background" title="background" /></p>
+<p>You can add an image and it shows here, but when you view this in the POSTS listing it doesn't show.</p>
 
 
         
