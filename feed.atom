@@ -4,13 +4,13 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/statiqweb-example" />
 	<rights>Copyright © 2023</rights>
-	<updated>2023-12-22T16:19:37Z</updated>
+	<updated>2023-12-22T16:46:18Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/2</id>
 		<title>2</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/2" />
-		<updated>2023-12-22T16:18:52Z</updated>
+		<updated>2023-12-22T16:45:41Z</updated>
 		<content>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -21,7 +21,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/4</id>
 		<title>4</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/4" />
-		<updated>2023-12-22T16:18:52Z</updated>
+		<updated>2023-12-22T16:45:41Z</updated>
 		<content>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -32,7 +32,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/3</id>
 		<title>3</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/3" />
-		<updated>2023-12-22T16:18:52Z</updated>
+		<updated>2023-12-22T16:45:41Z</updated>
 		<content>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -43,7 +43,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/5</id>
 		<title>5</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/5" />
-		<updated>2023-12-22T16:18:52Z</updated>
+		<updated>2023-12-22T16:45:41Z</updated>
 		<content>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
