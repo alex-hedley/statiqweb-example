@@ -10,3 +10,7 @@
 ## Docs
 
 - [docs](docs/README.md)
+
+## Submodules
+
+`git submodule update --remote --recursive --merge`
