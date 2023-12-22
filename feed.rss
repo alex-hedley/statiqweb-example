@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2023</copyright>
-		<pubDate>Fri, 22 Dec 2023 18:53:32 GMT</pubDate>
-		<lastBuildDate>Fri, 22 Dec 2023 18:53:32 GMT</lastBuildDate>
+		<pubDate>Fri, 22 Dec 2023 18:54:11 GMT</pubDate>
+		<lastBuildDate>Fri, 22 Dec 2023 18:54:11 GMT</lastBuildDate>
 		<item>
 			<title>2</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Fri, 22 Dec 2023 18:53:06 GMT</pubDate>
+			<pubDate>Fri, 22 Dec 2023 18:53:37 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Fri, 22 Dec 2023 18:53:06 GMT</pubDate>
+			<pubDate>Fri, 22 Dec 2023 18:53:37 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Fri, 22 Dec 2023 18:53:06 GMT</pubDate>
+			<pubDate>Fri, 22 Dec 2023 18:53:37 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,10 +48,23 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Fri, 22 Dec 2023 18:53:06 GMT</pubDate>
+			<pubDate>Fri, 22 Dec 2023 18:53:37 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Images in main listing</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/images</link>
+			<description>&lt;p&gt;&lt;img src="https://alex-hedley.github.io/statiqweb-example/images/background.jpg" alt="background" title="background"&gt;&lt;/p&gt;</description>
+			<enclosure url="https://alex-hedley.github.io/statiqweb-example/posts/images/background.jpg" length="0" type="image" />
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/images</guid>
+			<pubDate>Fri, 22 Dec 2023 00:00:00 GMT</pubDate>
+			<content:encoded>&lt;h1 id="images"&gt;Images&lt;/h1&gt;
+&lt;p&gt;&lt;img src="https://alex-hedley.github.io/statiqweb-example/images/background.jpg" alt="background" title="background"&gt;&lt;/p&gt;
+&lt;p&gt;You can add an image and it shows here, but when you view this in the POSTS listing it doesn't show.&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -493,19 +506,6 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 			<content:encoded>&lt;h1 id="section"&gt;1&lt;/h1&gt;
 &lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Images in main listing</title>
-			<link>https://alex-hedley.github.io/statiqweb-example/posts/images</link>
-			<description>&lt;p&gt;&lt;img src="https://alex-hedley.github.io/statiqweb-example/images/background.jpg" alt="background" title="background"&gt;&lt;/p&gt;</description>
-			<enclosure url="https://alex-hedley.github.io/statiqweb-example/posts/images/background.jpg" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/statiqweb-example/posts/images</guid>
-			<pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="images"&gt;Images&lt;/h1&gt;
-&lt;p&gt;&lt;img src="https://alex-hedley.github.io/statiqweb-example/images/background.jpg" alt="background" title="background"&gt;&lt;/p&gt;
-&lt;p&gt;You can add an image and it shows here, but when you view this in the POSTS listing it doesn't show.&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
