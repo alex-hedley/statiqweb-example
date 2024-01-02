@@ -3,14 +3,14 @@
 	<id>https://alex-hedley.github.io/statiqweb-example</id>
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/statiqweb-example" />
-	<rights>Copyright © 2023</rights>
-	<updated>2023-12-22T18:54:11Z</updated>
+	<rights>Copyright © 2024</rights>
+	<updated>2024-01-02T16:07:38Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/2</id>
 		<title>2</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/2" />
-		<updated>2023-12-22T18:53:37Z</updated>
+		<updated>2024-01-02T16:07:01Z</updated>
 		<content>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -21,7 +21,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/4</id>
 		<title>4</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/4" />
-		<updated>2023-12-22T18:53:37Z</updated>
+		<updated>2024-01-02T16:07:01Z</updated>
 		<content>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -32,7 +32,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/3</id>
 		<title>3</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/3" />
-		<updated>2023-12-22T18:53:37Z</updated>
+		<updated>2024-01-02T16:07:01Z</updated>
 		<content>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -43,12 +43,36 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/5</id>
 		<title>5</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/5" />
-		<updated>2023-12-22T18:53:37Z</updated>
+		<updated>2024-01-02T16:07:01Z</updated>
 		<content>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/statiqweb-example/posts/datetime2</id>
+		<title>Date Time 2</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/statiqweb-example/posts/datetime2" />
+		<updated>2024-01-02T11:00:00Z</updated>
+		<content>&lt;p&gt;11 am&lt;/p&gt;
+</content>
+		<summary>Handling date times</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/statiqweb-example/posts/datetime1</id>
+		<title>Date Time 1</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/statiqweb-example/posts/datetime1" />
+		<updated>2024-01-02T10:00:00Z</updated>
+		<content>&lt;p&gt;10 am&lt;/p&gt;
+</content>
+		<summary>Handling date times</summary>
 	</entry>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/images</id>
@@ -503,70 +527,5 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 &lt;p&gt;Testing&lt;/p&gt;
 </content>
 		<summary>&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/statiqweb-example/posts/gist</id>
-		<title>Gist</title>
-		<author>
-			<name>alex-hedley</name>
-		</author>
-		<link href="https://alex-hedley.github.io/statiqweb-example/posts/gist" />
-		<updated>2021-05-23T00:00:00Z</updated>
-		<content>&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.statiq.dev/api/statiq.web.shortcodes/"&gt;https://www.statiq.dev/api/statiq.web.shortcodes/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.statiq.dev/guide/content-and-data/shortcodes"&gt;https://www.statiq.dev/guide/content-and-data/shortcodes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;code&gt;2f257ee45d78b83631cc&lt;/code&gt;&lt;/p&gt;
-&lt;?# Gist 2f257ee45d78b83631cc /?&gt;
-&lt;p&gt;&lt;code&gt;213fc696be16de0fae376f1ec84560c27099cc78&lt;/code&gt;&lt;/p&gt;
-&lt;?# Gist 213fc696be16de0fae376f1ec84560c27099cc78 /?&gt;
-&lt;hr /&gt;
-&lt;h2 id="attempts"&gt;Attempts&lt;/h2&gt;
-&lt;?# IncludeCode https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m /?&gt;
-&lt;p&gt;See &lt;a href="https://alexhedley.wordpress.com/2014/09/20/reachability/"&gt;Reachability&lt;/a&gt; blog post which includes &lt;a href="https://gist.github.com/AlexHedley/2f257ee45d78b83631cc#file-gistfile1-m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;[gist URL /]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Hopefully shows raw &lt;a href="https://gist.githubusercontent.com/AlexHedley/2f257ee45d78b83631cc/raw/213fc696be16de0fae376f1ec84560c27099cc78/gistfile1.m"&gt;gistfile1.m&lt;/a&gt;&lt;/p&gt;
-</content>
-		<summary>Show a gist?</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/statiqweb-example/posts/devlead</id>
-		<title>Devlead.Statiq - Part 1 - Tabs</title>
-		<author>
-			<name>devlead</name>
-		</author>
-		<link href="https://alex-hedley.github.io/statiqweb-example/posts/devlead" />
-		<updated>2021-04-09T00:00:00Z</updated>
-		<content>&lt;h2 id="tabgroup-shortcode"&gt;TabGroup Shortcode&lt;/h2&gt;
-&lt;?# TabGroup ?&gt;
-&lt;?*
-tabs:
-  - name: Introduction
-    content: |
-      Statiq [shortcodes](https://statiq.dev/framework/content/shortcodes) are small but powerful macros that can generate content or add metadata to your documents.
-
-      The `TabGroup` shortcode, is a CSS-only solution to simplify adding tabs in your Statiq input files.
-
-      Why add tabs? Well with some content, a good example of that is code samples, tabs make it easier to group content together, keep things more focused and reduce user vertical scrolling.
-
-      With the `TabGroup` shortcode tab content can be defined as either
-
-      - Content - markdown defined directly in the shortcode content
-      - Include - markdown fetched and processed from a external file
-      - Code - fetch external file into markdown code fence
-
-      the shortcode content is defined as `YAML`, you can within a single tab combine all variants (`content`, `include`, and `code`), and it'll render in the following order
-
-      1. `content`
-      1. `include`
-      1. `code`
-
-  - include: ./../includes/prerequisites.md
-
-?&gt;
-&lt;?#/ TabGroup ?&gt;
-</content>
-		<summary>An .NET assembly extending the static site generator Statiq with new core features</summary>
 	</entry>
 </feed>
