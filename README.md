@@ -7,6 +7,20 @@
 
 - [Site](https://alex-hedley.github.io/statiqweb-example/)
 
+## Run
+
+`cd src`
+
+`dotnet run`
+
+`dotnet run -- preview`
+
+<!-- ### Development
+
+`dotnet run --environment "Development"`
+
+`dotnet run --environment "Development" -- preview` -->
+
 ## Docs
 
 - [docs](docs/README.md)
