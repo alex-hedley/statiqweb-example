@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Tue, 02 Jan 2024 16:17:40 GMT</pubDate>
-		<lastBuildDate>Tue, 02 Jan 2024 16:17:40 GMT</lastBuildDate>
+		<pubDate>Tue, 02 Jan 2024 16:34:13 GMT</pubDate>
+		<lastBuildDate>Tue, 02 Jan 2024 16:34:13 GMT</lastBuildDate>
 		<item>
 			<title>2</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,7 +48,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
