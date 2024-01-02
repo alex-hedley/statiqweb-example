@@ -4,3 +4,6 @@
 # Static.Web
 src/cache/
 src/output/
+
+# JetBrains
+src/.idea/
