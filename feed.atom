@@ -4,13 +4,13 @@
 	<title>Alex Hedley</title>
 	<link rel="self" href="https://alex-hedley.github.io/statiqweb-example" />
 	<rights>Copyright © 2024</rights>
-	<updated>2024-01-02T16:07:38Z</updated>
+	<updated>2024-01-02T16:17:40Z</updated>
 	<subtitle>Welcome to my blog!</subtitle>
 	<entry>
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/2</id>
 		<title>2</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/2" />
-		<updated>2024-01-02T16:07:01Z</updated>
+		<updated>2024-01-02T16:17:01Z</updated>
 		<content>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -21,7 +21,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/4</id>
 		<title>4</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/4" />
-		<updated>2024-01-02T16:07:01Z</updated>
+		<updated>2024-01-02T16:17:01Z</updated>
 		<content>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -32,7 +32,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/3</id>
 		<title>3</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/3" />
-		<updated>2024-01-02T16:07:01Z</updated>
+		<updated>2024-01-02T16:17:01Z</updated>
 		<content>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -43,7 +43,7 @@
 		<id>https://alex-hedley.github.io/statiqweb-example/posts/5</id>
 		<title>5</title>
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/5" />
-		<updated>2024-01-02T16:07:01Z</updated>
+		<updated>2024-01-02T16:17:01Z</updated>
 		<content>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -71,6 +71,18 @@
 		<link href="https://alex-hedley.github.io/statiqweb-example/posts/datetime1" />
 		<updated>2024-01-02T10:00:00Z</updated>
 		<content>&lt;p&gt;10 am&lt;/p&gt;
+</content>
+		<summary>Handling date times</summary>
+	</entry>
+	<entry>
+		<id>https://alex-hedley.github.io/statiqweb-example/posts/datetime3</id>
+		<title>Date Time 3</title>
+		<author>
+			<name>alex-hedley</name>
+		</author>
+		<link href="https://alex-hedley.github.io/statiqweb-example/posts/datetime3" />
+		<updated>2024-01-02T09:00:00Z</updated>
+		<content>&lt;p&gt;9 am&lt;/p&gt;
 </content>
 		<summary>Handling date times</summary>
 	</entry>
@@ -515,17 +527,5 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 &lt;/ul&gt;
 </content>
 		<summary>How to add mermaid diagrams in statiq</summary>
-	</entry>
-	<entry>
-		<id>https://alex-hedley.github.io/statiqweb-example/posts/1</id>
-		<title>1</title>
-		<link href="https://alex-hedley.github.io/statiqweb-example/posts/1" />
-		<link rel="enclosure" type="image" href="https://alex-hedley.github.io/statiqweb-example/posts/images/background.jpg" />
-		<updated>2023-01-01T00:00:00Z</updated>
-		<content>&lt;h1 id="section"&gt;1&lt;/h1&gt;
-&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
-&lt;p&gt;Testing&lt;/p&gt;
-</content>
-		<summary>&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;</summary>
 	</entry>
 </feed>

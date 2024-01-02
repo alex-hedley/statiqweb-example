@@ -5,14 +5,14 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Tue, 02 Jan 2024 16:07:38 GMT</pubDate>
-		<lastBuildDate>Tue, 02 Jan 2024 16:07:38 GMT</lastBuildDate>
+		<pubDate>Tue, 02 Jan 2024 16:17:40 GMT</pubDate>
+		<lastBuildDate>Tue, 02 Jan 2024 16:17:40 GMT</lastBuildDate>
 		<item>
 			<title>2</title>
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
 			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Tue, 02 Jan 2024 16:07:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
 &lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -24,7 +24,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Tue, 02 Jan 2024 16:07:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -36,7 +36,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Tue, 02 Jan 2024 16:07:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -48,7 +48,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
 			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Tue, 02 Jan 2024 16:07:01 GMT</pubDate>
+			<pubDate>Tue, 02 Jan 2024 16:17:01 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
 &lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -74,6 +74,17 @@
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/datetime1</guid>
 			<pubDate>Tue, 02 Jan 2024 10:00:00 GMT</pubDate>
 			<content:encoded>&lt;p&gt;10 am&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Date Time 3</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/datetime3</link>
+			<description>Handling date times</description>
+			<author>alex-hedley</author>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/datetime3</guid>
+			<pubDate>Tue, 02 Jan 2024 09:00:00 GMT</pubDate>
+			<content:encoded>&lt;p&gt;9 am&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -515,19 +526,6 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>1</title>
-			<link>https://alex-hedley.github.io/statiqweb-example/posts/1</link>
-			<description>&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;</description>
-			<enclosure url="https://alex-hedley.github.io/statiqweb-example/posts/images/background.jpg" length="0" type="image" />
-			<guid>https://alex-hedley.github.io/statiqweb-example/posts/1</guid>
-			<pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;h1 id="section"&gt;1&lt;/h1&gt;
-&lt;p&gt;Hello from my first Statiq page.&lt;/p&gt;
-&lt;p&gt;Testing&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
