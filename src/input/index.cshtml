@@ -38,4 +38,20 @@ ArchiveTitle: => GetString("Title")
       @Html.Partial("/_sidebar.cshtml")
     </div>
   </div>
+
+  <!-- Cookie Banner -->
+  <div x-data="{ hide_banner: true }" x-init="hide_banner = docCookies.hasItem('hide_banner');" x-bind:class="{ 'hidden': hide_banner, 'fixed': !hide_banner }">
+    <div>
+      <div class="w-full text-lg">
+        <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" 
+          rel="noreferrer" 
+          target="_blank">This website uses Google Analytics, and its cookies.</a>
+      </div>
+      <button type="button" 
+        onclick="hide_banner = true; docCookies.setItem('hide_banner', true, 'Fri, 31 Dec 9999 23:59:59 GMT', null, null, null, 'strict');" 
+        class="" 
+        aria-label="Dismiss">Understood</button>
+    </div>
+  </div>
+
 </div>
