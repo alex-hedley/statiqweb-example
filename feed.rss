@@ -5,16 +5,16 @@
 		<link>https://alex-hedley.github.io/statiqweb-example</link>
 		<description>Welcome to my blog!</description>
 		<copyright>Copyright © 2024</copyright>
-		<pubDate>Tue, 02 Jan 2024 16:34:13 GMT</pubDate>
-		<lastBuildDate>Tue, 02 Jan 2024 16:34:13 GMT</lastBuildDate>
+		<pubDate>Mon, 25 Mar 2024 13:10:35 GMT</pubDate>
+		<lastBuildDate>Mon, 25 Mar 2024 13:10:35 GMT</lastBuildDate>
 		<item>
-			<title>2</title>
-			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
-			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
-			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
-			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
-			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
-&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
+			<title>5</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
+			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
+			<pubDate>Mon, 25 Mar 2024 13:10:09 GMT</pubDate>
+			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
+&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -24,10 +24,40 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/4</link>
 			<description>&lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/4</guid>
-			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
+			<pubDate>Mon, 25 Mar 2024 13:10:09 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;4&lt;/h1&gt;
 &lt;p&gt;Hello from my fourth Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
+		<item>
+			<title>Alerts</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/alerts</link>
+			<description>&lt;p&gt;This is a tip&lt;/p&gt;</description>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/alerts</guid>
+			<pubDate>Mon, 25 Mar 2024 13:10:09 GMT</pubDate>
+			<content:encoded>&lt;h1 id="alerts"&gt;Alerts&lt;/h1&gt;
+&lt;h2 id="tip"&gt;Tip&lt;/h2&gt;
+&lt;?# Tip ?&gt;
+&lt;p&gt;This is a tip&lt;/p&gt;
+&lt;?#/ Tip ?&gt;
+&lt;h2 id="info"&gt;Info&lt;/h2&gt;
+&lt;?# Info ?&gt;
+&lt;p&gt;This is an info message&lt;/p&gt;
+&lt;?#/ Info ?&gt;
+&lt;h2 id="note"&gt;Note&lt;/h2&gt;
+&lt;?# Note ?&gt;
+&lt;p&gt;This is a note&lt;/p&gt;
+&lt;?#/ Note ?&gt;
+&lt;h2 id="warning"&gt;Warning&lt;/h2&gt;
+&lt;?# Warning ?&gt;
+&lt;p&gt;This is a warning&lt;/p&gt;
+&lt;?#/ Warning ?&gt;
+&lt;h2 id="important"&gt;Important&lt;/h2&gt;
+&lt;?# Important ?&gt;
+&lt;p&gt;This is an important message&lt;/p&gt;
+&lt;?#/ Important ?&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
@@ -36,7 +66,7 @@
 			<link>https://alex-hedley.github.io/statiqweb-example/posts/3</link>
 			<description>&lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;</description>
 			<guid>https://alex-hedley.github.io/statiqweb-example/posts/3</guid>
-			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
+			<pubDate>Mon, 25 Mar 2024 13:10:09 GMT</pubDate>
 			<content:encoded>&lt;h1 id="section"&gt;3&lt;/h1&gt;
 &lt;p&gt;Hello from my third Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
@@ -44,13 +74,13 @@
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>
 		<item>
-			<title>5</title>
-			<link>https://alex-hedley.github.io/statiqweb-example/posts/5</link>
-			<description>&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;</description>
-			<guid>https://alex-hedley.github.io/statiqweb-example/posts/5</guid>
-			<pubDate>Tue, 02 Jan 2024 16:33:38 GMT</pubDate>
-			<content:encoded>&lt;h1 id="section"&gt;5&lt;/h1&gt;
-&lt;p&gt;Hello from my fifth Statiq page.&lt;/p&gt;
+			<title>2</title>
+			<link>https://alex-hedley.github.io/statiqweb-example/posts/2</link>
+			<description>&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;</description>
+			<guid>https://alex-hedley.github.io/statiqweb-example/posts/2</guid>
+			<pubDate>Mon, 25 Mar 2024 13:10:09 GMT</pubDate>
+			<content:encoded>&lt;h1 id="section"&gt;2&lt;/h1&gt;
+&lt;p&gt;Hello from my second Statiq page.&lt;/p&gt;
 &lt;p&gt;Testing&lt;/p&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
@@ -482,50 +512,6 @@ https://github.com/covidsafewatch/website/blob/master/input/issue-register/trans
 &lt;?# Raw ?&gt;
 &lt;?# Include "https://github.com/foo/bar/me.md" &gt;
 &lt;?#/ Raw ?&gt; --&gt;
-</content:encoded>
-			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
-		</item>
-		<item>
-			<title>Mermaid</title>
-			<link>https://alex-hedley.github.io/statiqweb-example/posts/mermaid</link>
-			<description>How to add mermaid diagrams in statiq</description>
-			<author>alexhedley</author>
-			<guid>https://alex-hedley.github.io/statiqweb-example/posts/mermaid</guid>
-			<pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate>
-			<content:encoded>&lt;p&gt;Add a file &lt;code&gt;_scripts.cshtml&lt;/code&gt;&lt;/p&gt;
-&lt;?# IncludeCode "./../_scripts.cshtml" /?&gt;
-&lt;div class="mermaid"&gt;flowchart LR
-    subgraph azureprod [Azure fa:fa-cloud]
-        AppProduction(App Service fa:fa-globe) --&gt; api-production[APIM fa:fa-sitemap&amp;lt;br&gt;api-production]
-        AppProduction --&gt; vnetprd[vnet-prd]
-    end
-    subgraph onpremprod [On-premises fa:fa-home]
-        vnetprd ----&gt; SQLProd[SQL Prod fa:fa-server ] --&gt; DBProd[(DBProd)]
-    end
-&lt;/div&gt;
-&lt;h2 id="devlead"&gt;[Devlead]&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/_scripts.cshtml"&gt;scripts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/devlead/Devlead.Statiq/blob/main/src/Devlead.Statiq.TestWeb/input/posts/Tabs.md"&gt;Tabs.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="other"&gt;Other&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://www.dpvreony.com/articles/mermaid-with-statiq/"&gt;Using Mermaid diagrams with Statiq.&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/dpvreony/article-statiq-mermaid"&gt;repo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://blog.beckshome.com/2022/09/mermaid-in-statiq"&gt;Mermaid Diagrams in Statiq&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/thbst16/dotnet-statiq-beckshome-blog/blob/main/input/posts/mermaid-in-statiq.md"&gt;code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://github.com/ociaw/StatiqMermaid"&gt;StatiqMermaid Repo&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.nuget.org/packages/Ociaw.StatiqMermaid/0.1.0-beta.2"&gt;nuget&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 </content:encoded>
 			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
 		</item>

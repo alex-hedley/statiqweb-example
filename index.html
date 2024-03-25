@@ -38,6 +38,7 @@
   <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet">
 
   <link href="/statiqweb-example/scss/TabGroup.css" rel="stylesheet" type="text/css">
+<script src="/assets/vendor/cookies/cookies.min.js" defer=""></script>
 
   
 
@@ -110,30 +111,37 @@
 
 
 <div class="post-preview">
-  <h2 class="post-title"><a href="/statiqweb-example/posts/2">2</a></h2>
-  <p class="post-meta">Published on Tuesday, 2 January 2024</p>
-<p>Hello from my second Statiq page.</p>    <p class="small"><a href="/statiqweb-example/posts/2">Read more...</a></p>
+  <h2 class="post-title"><a href="/statiqweb-example/posts/5">5</a></h2>
+  <p class="post-meta">Published on Monday, 25 March 2024</p>
+<p>Hello from my fifth Statiq page.</p>    <p class="small"><a href="/statiqweb-example/posts/5">Read more...</a></p>
 </div>
 
 
 <div class="post-preview">
   <h2 class="post-title"><a href="/statiqweb-example/posts/4">4</a></h2>
-  <p class="post-meta">Published on Tuesday, 2 January 2024</p>
+  <p class="post-meta">Published on Monday, 25 March 2024</p>
 <p>Hello from my fourth Statiq page.</p>    <p class="small"><a href="/statiqweb-example/posts/4">Read more...</a></p>
 </div>
 
 
 <div class="post-preview">
+  <h2 class="post-title"><a href="/statiqweb-example/posts/alerts">Alerts</a></h2>
+  <p class="post-meta">Published on Monday, 25 March 2024</p>
+<p>This is a tip</p>    <p class="small"><a href="/statiqweb-example/posts/alerts">Read more...</a></p>
+</div>
+
+
+<div class="post-preview">
   <h2 class="post-title"><a href="/statiqweb-example/posts/3">3</a></h2>
-  <p class="post-meta">Published on Tuesday, 2 January 2024</p>
+  <p class="post-meta">Published on Monday, 25 March 2024</p>
 <p>Hello from my third Statiq page.</p>    <p class="small"><a href="/statiqweb-example/posts/3">Read more...</a></p>
 </div>
 
 
 <div class="post-preview">
-  <h2 class="post-title"><a href="/statiqweb-example/posts/5">5</a></h2>
-  <p class="post-meta">Published on Tuesday, 2 January 2024</p>
-<p>Hello from my fifth Statiq page.</p>    <p class="small"><a href="/statiqweb-example/posts/5">Read more...</a></p>
+  <h2 class="post-title"><a href="/statiqweb-example/posts/2">2</a></h2>
+  <p class="post-meta">Published on Monday, 25 March 2024</p>
+<p>Hello from my second Statiq page.</p>    <p class="small"><a href="/statiqweb-example/posts/2">Read more...</a></p>
 </div>
 
 
@@ -172,13 +180,6 @@
 <p>START</p>    <p class="small"><a href="/statiqweb-example/posts/include">Read more...</a></p>
 </div>
 
-
-<div class="post-preview">
-  <h2 class="post-title"><a href="/statiqweb-example/posts/mermaid">Mermaid</a></h2>
-  <p class="post-meta">Published on Tuesday, 16 May 2023</p>
-<p>Add a file <code>_scripts.cshtml</code></p>    <p class="small"><a href="/statiqweb-example/posts/mermaid">Read more...</a></p>
-</div>
-
   <div>
     <div class="float-sm-start">
     </div>
@@ -214,6 +215,22 @@
 
     </div>
   </div>
+
+  <!-- Cookie Banner -->
+  <div x-data="{ hide_banner: true }" x-init="hide_banner = docCookies.hasItem('hide_banner');" x-bind:class="{ 'hidden': hide_banner, 'fixed': !hide_banner }">
+    <div>
+      <div class="w-full text-lg">
+        <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" 
+          rel="noreferrer" 
+          target="_blank">This website uses Google Analytics, and its cookies.</a>
+      </div>
+      <button type="button" 
+        onclick="hide_banner = true; docCookies.setItem('hide_banner', true, 'Fri, 31 Dec 9999 23:59:59 GMT', null, null, null, 'strict');" 
+        class="" 
+        aria-label="Dismiss">Understood</button>
+    </div>
+  </div>
+
 </div>
 
         
